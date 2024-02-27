@@ -1,0 +1,60 @@
+#GameInfoMainBac {
+  background: url("https://cdn-mk1.mortalkombat.com/game/kombat-pack-bg-1920.jpg")
+    no-repeat center/cover;
+  height: 120vh;
+  width: 100%;
+
+  z-index: -1;
+}
+
+.bl {
+  padding-top: 50pc;
+}
+
+.GemeInfoBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.GameInfoVedio {
+  transform: skew(-15deg);
+}
+
+.KameoInfoBlock {
+  width: 100%;
+  background: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.KamoeImg {
+  transform: skew(-13deg);
+}
+#KameoInfoMainPov {
+  margin-top: -2pc;
+}
+
+.KameoInfoBlock {
+  padding-top: 5pc;
+  padding-bottom: 2pc;
+}
+
+.poster {
+  width: 600px;
+}
+
+#GameInfoBlockImmersive {
+  background: url("https://cdn-mk1.mortalkombat.com/game/story-env-b.jpg")
+    no-repeat center/cover;
+  height: 70vh;
+  width: 100%;
+  margin-top: -1pc;
+}
+#GameInfoBlockInvasions {
+  background: url("https://cdn-mk1.mortalkombat.com/game/invasions-bg-2442.jpg") no-repeat center/cover fixed   ;
+  height: 70vh;
+  width: 100%;
+  margin-top: -1pc;
+}

@@ -1,0 +1,47 @@
+#sign {
+    background: url("https://prod-network-images.wbagora.com/network/account-wbgames-com/games/mortalkombat-com-mk1/mortalkombat-com-mk1-background.jpg")
+        no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.email {
+    width: 200px;
+    padding: 12px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    background-color: #232c59;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.email:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);
+    transform: scale(1.02);
+}
+
+/* Placeholder Styling */
+.email::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Hover Effect */
+.email:hover {
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.bold {
+    /* background: #000; */
+    background: #082e489f;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}

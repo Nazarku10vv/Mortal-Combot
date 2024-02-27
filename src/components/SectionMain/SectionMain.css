@@ -1,0 +1,118 @@
+.main h1 {
+    font-size: 40px;
+    font-family: "MajestyBold", "Times New Roman", serif;
+}
+.mainBlock {
+    position: absolute;
+    top: 10pc;
+    left: 34pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.avatarortalCombat1 {
+    padding: 20px;
+}
+.main {
+    position: relative;
+}
+
+.mainBlock button {
+    font-size: 1.375vw;
+    letter-spacing: 0.075vw;
+    padding: 0.625vw 2.75vw;
+    clip-path: polygon(0% 50%, 11% 0%, 89% 0%, 100% 50%, 89% 100%, 11% 100%);
+    background: radial-gradient(
+        circle,
+        rgb(50, 98, 180) 0%,
+        rgb(17, 53, 139) 100%
+    );
+    transition: all 0.2s ease;
+    letter-spacing: 0.075rem;
+    padding: 0.625rem 2.75rem;
+    --bs-btn-color: white;
+    --bs-btn-hover-color: white;
+    position: relative;
+    font-family: MajestyMedium, Times New Roman, serif;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: none;
+    display: block;
+    transition: all 0.2s ease;
+    text-shadow: 0 0 5px #96b9fc;
+    color: #fff;
+}
+
+.SectionCombatVideo {
+    transform: skew(15deg);
+    width: 300px;
+    margin-left: 2pc;
+}
+
+.SectionCombatPackText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin-left: 10pc;
+    height: 79vh;
+    align-items: start;
+}
+
+.SectionCombatPackText h3 {
+    color: #fff;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    translate: none;
+    rotate: none;
+    font-family: MajestyMedium, Times New Roman, serif;
+
+    scale: none;
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.SectionCombatPackText span {
+    color: #ffecc5;
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.SectionCombatPackText h5 {
+    color: white;
+}
+
+.SectionCombatPackText h6 {
+    color: white;
+    font-family: MajestyMedium, Times New Roman, serif;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.SectionMainTheShopBlock {
+    position: relative;
+    padding: 100px 0;
+}
+.SectionMainTheShopBlockImg2 {
+    position: absolute;
+    top: 21pc;
+}
+
+.sectionMainFooterText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    gap: 40px;
+}
+
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 40px;
+}
